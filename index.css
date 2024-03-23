@@ -1,0 +1,23 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, rgb(97, 182, 168), rgb(70, 135, 124));
+    min-height: 100vh;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a {
+    color: brown;
+    font-size: 20px;
+}
