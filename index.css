@@ -11,8 +11,9 @@ body {
 }
 
 h1 {
+    margin-bottom: 20px;
     color: rgb(9, 91, 78);
-    font-size: 40px;
+    font-size: 70px;
 }
 
 span {
@@ -26,10 +27,15 @@ img {
 
 a.r-link {
     display: inline-block;
+    text-decoration: none;
     width: 200px;
-    padding: 0px 0px;
-    border: 10px ridge rgb(78, 172, 157);
+    padding: 3px;
+    border: 8px ridge rgb(78, 172, 157);
     background-color: rgb(124, 202, 189);
     color: rgb(9, 91, 78);
     font-size: 20px;
+}
+
+a:hover {
+    background-color: rgba(124, 202, 189, 0.615);
 }
