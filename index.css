@@ -5,19 +5,31 @@ html {
 }
 
 body {
+    width: 675px;
+    margin: 10px auto;
     text-align: center;
 }
 
 h1 {
-    color: green;
+    color: rgb(9, 91, 78);
     font-size: 40px;
 }
 
+span {
+    font-size: 15px;
+}
+
 img {
+    border: 10px inset rgb(78, 172, 157);
     border-radius: 50%;
 }
 
-a {
-    color: brown;
+a.r-link {
+    display: inline-block;
+    width: 200px;
+    padding: 0px 0px;
+    border: 10px ridge rgb(78, 172, 157);
+    background-color: rgb(124, 202, 189);
+    color: rgb(9, 91, 78);
     font-size: 20px;
 }
